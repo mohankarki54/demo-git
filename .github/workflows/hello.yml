@@ -4,7 +4,9 @@ on: [push]
 
 jobs:
   build:
+    name: Test for ecs host
     runs-on: self-hosted
+    
     steps:
     - name: Run Hello World
       run: echo "Hello World"
